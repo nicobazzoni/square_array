@@ -1,3 +1,14 @@
 def square_array(array)
-  # your code here
+  emptyarray = []
+  array.each do |number|
+    emptyarray << number * number
+
+ 
+  end
+   return emptyarray 
+
+
+
+  
+  
 end
